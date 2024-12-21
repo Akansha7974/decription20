@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: radial-gradient(rgb(122, 122, 177),#e9e2df);
+    padding: 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+nav p{
+    transition: 0.5s all;
+}
+nav p:hover{
+    scale: 1.2;
+}
+nav .heading{
+    display: flex;
+    gap: 40px;
+}
+hr{
+    border: 1px solid black;
+}
+h1{
+    padding-top:40px ;
+    font-size: 80px;
+    padding-bottom: 40px;
+}
+h2{
+    padding: 20px 0;
+}
+img{
+    height: 300px;
+}
